@@ -217,6 +217,11 @@ Function InstallMediaPlayerClassic {
 	choco install mpc-hc -y
 }
 
+Function InstallFirefoxESR {
+	Write-Output "Installing Firefox ESR (68.11.0)
+	choco install firefoxesr -y
+}
+
 ##########
 # Privacy Tweaks
 ##########
